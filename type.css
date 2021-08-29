@@ -1,0 +1,109 @@
+
+body {background-image:url('css/EXO UADB.PNG');background-repeat:scroll;
+      font-family: times;margin:0px;padding-right:0px;background-color:black;
+border:maroon 3px solid;
+
+}
+
+  nav 
+  { with:250px; background-color:#424558; 
+  } 
+   nav > ul 
+  { padding:1px; margin: 1px; 
+  } 
+
+ nav > ul > li 
+  { float:left; position:relative; list-style-type:none;
+  }
+  nav > ul::after
+  { content:""; display: block; clear:both;
+   } 
+   nav > a 
+   { display: inline-block; text-decoration: none;
+   }
+   nav > ul > li > a 
+   { padding:200px 100px;color: #FFF;
+   }
+.submenu 
+  { display: none; list-style-type: none; background-color: salmon;
+  }
+nav li:hover .submenu 
+   { display: inline-block; position: absolute; top: 100%; left: 0px; padding: 0px; z-index: 100000;
+   }
+.submenu li 
+   { border-bottom: 2px    solid #FFF;
+   }
+.submenu li a 
+   {padding: 18px 30px; font-size: 15px; color:black; width: 210px;
+   }
+.menu-accueil:hover
+   { border-top: 3px solid  #008080; background-color:green;
+   }
+.menu-licence:hover
+   { border-top: 3px solid #0070bb; background-color:green;
+   }
+.menu-auteur:hover
+   { border-top: 4px solid #0000FF; background-color:green;
+   }
+.menu-cv:hover
+   { border-top: 4px solid #BBB; background-color:green;
+   }
+.menu-contact:hover
+   { border-top: 4px solid #008080; background-color:green;
+   }
+ 
+   p
+    { font-family: Time New Roma; color:white;align:min-height;
+	}
+      
+    #page1 
+	{ margin-top: 15px; 
+	height: 200px; 
+	border-radius: 5px; 
+	background-image: url('PROJ/ban2.png') no-repeat; 
+	position: relative; 
+	box-shadow: 0px 4px 4px #1c1a19; 
+	margin-bottom: 25px; 
+	}
+	#page2
+	{ position: absolute; 
+	 bottom: 0; 
+	 border-radius: 0px 0px 5px 5px; 
+	 width: 200%; height: 22px; 
+	 padding-top: 8px; padding-left: 16px; 
+	 background-color: #706b64;  
+	 font-size: 0.8em;
+    }
+ 
+    article, aside 
+	{ display: inline-block; 
+	  vertical-align: top; 
+	  text-align: justify; position:right;align:right;
+	} 
+	article 
+	{ width: 800px; 
+	margin-right: 8px; 
+	}
+    article h1 {color:olive;}
+	article p 
+	{ font-size: 0.8em; 
+	} 
+	aside 
+	{ position: relative; 
+	width: 510px; 
+	background-color: #706b64; 
+	box-shadow: 0px 2px 5px #1c1a19; 
+	border-radius: 9px; 
+	padding: 10px; 
+	color: aqua; 
+	font-size: 0.9em;align:right; }
+ 
+	
+
+	footer { padding-top: 20px; 
+             } 
+		   #page3
+		   { font-size: 1.1em; 
+		   text-align: center; 
+		   width: 1400px; /*margin: auto;*/ background-color: #706b64; box-shadow: 0px 2px 5px #1c1a19; 
+	       border-radius: 3px; padding: 3px; color: white; }
